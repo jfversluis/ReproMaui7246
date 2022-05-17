@@ -7,9 +7,9 @@ public partial class MainPage : ContentPage
 		InitializeComponent();
     }
 
-	private void OnCounterClicked(object sender, EventArgs e)
+	private async void OnCounterClicked(object sender, EventArgs e)
 	{
-		Shell.Current.GoToAsync("Settings");
+		await Shell.Current.GoToAsync(nameof(SettingsPage));
     }
 }
 

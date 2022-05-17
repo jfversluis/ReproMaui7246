@@ -5,7 +5,7 @@
              Title="SettingsPage"
              Shell.TabBarIsVisible="False">
     <StackLayout>
-        <Label Text="Welcome to .NET MAUI!"
+        <Label Text="This page should have no TabBar"
                 VerticalOptions="Center" 
                 HorizontalOptions="Center" />
     </StackLayout>
